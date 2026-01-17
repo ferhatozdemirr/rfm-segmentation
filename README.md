@@ -50,5 +50,7 @@ Datalar 100 tane ve statik olacak şekilde mockData altındaki klasöre yazılm�
 
 Not : 
 
-Ekrandaki değerler client ın ilk yüklenme aşamasında Recency nin 365 gün hesaplamasıyla başlar ve Frequency ile Monetary yi baz almaz.
+Ekrandaki değerler client ın ilk yüklenme aşamasında Recency nin 365 gün hesaplamasıyla başlar ve Frequency ile Monetary yi 0 olarak kabul eder.
+Yani : 
+“En az 0 alışveriş yapmış olan herkes” veya “En az 0 TL harcamış olan herkes”.
 Client da işlem gerçekleştirildikçe filtrelenme sağlanacaktır.
