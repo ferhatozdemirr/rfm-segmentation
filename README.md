@@ -41,3 +41,8 @@ API
 
 Seçilen ID’ler aşağıdaki endpoint’e POST isteği ile gönderilir:
 POST /api/selected-ids
+
+
+Datalar 
+
+Datalar 100 tane ve statik olacak şekilde mockData altındaki klasöre yazılmıştır.
