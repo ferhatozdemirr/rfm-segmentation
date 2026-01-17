@@ -46,3 +46,9 @@ POST /api/selected-ids
 Datalar 
 
 Datalar 100 tane ve statik olacak şekilde mockData altındaki klasöre yazılmıştır.
+
+
+Not : 
+
+Ekrandaki değerler client ın ilk yüklenme aşamasında Recency nin 365 gün hesaplamasıyla başlar ve Frequency ile Monetary yi baz almaz.
+Client da işlem gerçekleştirildikçe filtrelenme sağlanacaktır.
